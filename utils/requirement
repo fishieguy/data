@@ -4,5 +4,6 @@
 };
 return list;]]
 -- new cool!
+createTitle("Game Links")
 createButton("Visit place Clickable link", function() createNotification("https://fishieguy.github.io/redir.github.io/roblox://placeId=" .. game.PlaceId, 10) end)
 createButton("Visit place Clickable link", function() createNotification("https://fishieguy.github.io/redir.github.io/roblox://placeId=" .. game.PlaceId, 10) end)
