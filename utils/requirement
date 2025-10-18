@@ -1,2 +1,5 @@
-createButton("Visit place link", function() createNotification("roblox://placeId=" .. game.PlaceId, 10) end)
-createButton("Visit place Clickable link", function() createNotification("https://fishieguy.github.io/redir.github.io/roblox://placeId=" .. game.PlaceId, 10) end)
+list = {
+  {"Visit place link", function() createNotification("roblox://placeId=" .. game.PlaceId, 10) end}
+  {"Visit place Clickable link", function() createNotification("https://fishieguy.github.io/redir.github.io/roblox://placeId=" .. game.PlaceId, 10) end}
+}
+return list
