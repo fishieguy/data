@@ -1,5 +1,8 @@
-list = {
+--[[ list = { -- old, inconvenient, not modular, still dangerous
   {"Visit place link", function() createNotification("roblox://placeId=" .. game.PlaceId, 10) end};
   {"Visit place Clickable link", function() createNotification("https://fishieguy.github.io/redir.github.io/roblox://placeId=" .. game.PlaceId, 10) end};
 };
-return list;
+return list;]]
+-- new cool!
+createButton("Visit place Clickable link", function() createNotification("https://fishieguy.github.io/redir.github.io/roblox://placeId=" .. game.PlaceId, 10) end)
+createButton("Visit place Clickable link", function() createNotification("https://fishieguy.github.io/redir.github.io/roblox://placeId=" .. game.PlaceId, 10) end)
