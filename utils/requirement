@@ -7,3 +7,5 @@ return list;]]
 createTitle("Game Links")
 createButton("Visit place link", function() createNotification("roblox://placeId=" .. game.PlaceId, 10) end)
 createButton("Visit place Clickable link", function() createNotification("https://fishieguy.github.io/redir.github.io/roblox://placeId=" .. game.PlaceId, 10) end)
+createTitle("User Utilities")
+createButton("Get Local User ID", function() createNotification("Local User ID: " .. game.Players.LocalPlayer.UserId) end)
